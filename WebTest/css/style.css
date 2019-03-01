@@ -1,0 +1,115 @@
+body{
+  font-family: Arial, Halvetica, sans-serif;
+  font-size:30px;
+  line-height:1.5;
+  font: 15px/1.5 Arial, Halvetica, sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#000000;
+}
+
+/* Global */
+.container{
+  width:80%;
+  margin-auto;
+  overflow:hidden;
+  padding-left:150px;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+/* Header */
+header{
+  background:#000000;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#e8491d 1px solid;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-tize:16px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 80px 0 30px;
+}
+
+header #brand{
+  float:left;
+}
+
+header #brand h1{
+  margin:10px;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .highlight, header .current a{
+  color:#e8491d;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+/* showcase */
+#showcase{
+  min-height:400px;
+  background:url('../img/Back.png') no-repeat -125px -500px;
+  color:#ffffff;
+}
+
+/* Test */
+#test{
+  margin:0;
+  color:#ffffff;
+  background:#000000;
+  width:100%
+}
+
+#test h1{
+  text-align:center;
+}
+
+#text p{
+  text-align:center;
+}
+
+/* SecTest */
+#sectest{
+  margin:0;
+  background:#000000;
+  color:#ffffff;
+  width:100%;
+}
+
+#sectest h1{
+  text-align:center;
+}
+
+#sectest p{
+  text-align:center;
+}
+
+/* footer */
+footer{
+  padding:20px;
+  color:#ffffff;
+  background-color:#000000;
+  text-align:center;
+  border-top:#e8491d 3px solid;
+}
